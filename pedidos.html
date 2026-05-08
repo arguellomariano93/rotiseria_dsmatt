@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+   <html lang="es">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== ICONS ===============-->
+      <link rel="shortcut icon" href="assets/img/logoDsMatt.png" type="imege/x-icon">
+
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css">
+
+      <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+
+      <!--=============== SWIPER CSS ===============-->
+      <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+      
+      <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.21.0/dist/sweetalert2.min.css" rel="stylesheet">
+
+      <title>DS Matt</title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <nav class="nav__principal">
+            <a href="#inicio" class="nav__logo">Mis Pedidos</a>
+            <img src="assets/img/logoDsMatt.png" alt="imagen" class="nav__logo-img"> 
+
+         </nav>         
+      </header>
+      <!--=============== NAVBAR ===============-->
+      <!-- <nav class="nav" id="nav__opciones">
+         <ul class="nav__lista" >
+            <li>
+               <a href="index.html" class="nav__link">
+                  <i class="ri-home-9-fill"></i>
+                  <span>Incio</span>
+               </a>
+            </li>
+
+            <li>
+               <a href="menu.html" class="nav__link">
+                  <i class="ri-restaurant-fill"></i>
+                  <span>Menú</span>
+               </a>
+            </li>
+
+            <li>
+               <a href="pedidos.html" class="nav__link active__link">
+                  <i class="ri-shopping-cart-fill"></i>
+                  <span>Pedidos</span>
+               </a>
+            </li>
+
+            <li>
+               <a href="index.html" class="nav__link">
+                  <i class="ri-contacts-fill"></i>
+                  <span>Contacto</span>
+               </a>
+            </li>
+         </ul>         
+      </nav> -->
+
+      <div class="section oculto" id="carrito-vacio">
+         
+         <div class="img__carrito-vacio">
+            <img src="./assets/img/carrito-vacio.png" class="img-carrito" alt="carrito-vacio">
+            <h2>Tu carrito esta vacio.</h2>
+            <span>Recorré nuestro menú y elegí lo que más te guste!</span>
+         </div>  
+         <div class="carrito__acciones" id="carrito-volver">
+            <div class="botones__acciones-carrito">                 
+               <a href="menu.html">
+                  <button class="seguir__comprando active">
+                     Comenzar pedido
+                  </button>
+               </a>
+            </div>
+         </div>
+      </div>
+      <div class="section-carrito" id="carrito-con-productos">
+         <div class="contenedorDeCarrito" id="carrito-productos">
+            <!-- <div class="contenedor__carrito">
+               <div class="carrito__productos">
+                  <div class="carrito__producto">
+                     <div class="img__carrito-seleccionado">
+                        <img src="/assets/img/pizza-01.png" alt="imagen" class="img__carrito">
+                     </div>                                    
+                     <div class="carrito__producto-titulo">                     
+                        <small>Pizza</small>
+                        <h3>Napolitana</h3>
+                     </div>                  
+                     <div class="carrito__producto-seleccionado">                     
+                        <p>$ 39466,50</p>
+                        <div class="cantidad__seleccionada">
+                           <i class="ri-delete-bin-5-fill"></i>
+                           <span>1</span> 
+                           <i class="ri-add-large-fill"></i>
+                        </div>                     
+                     </div>                     
+                     </div>                 
+                  </div>
+            </div>
+
+            <div class="contenedor__carrito">
+               <div class="carrito__productos">
+                  <div class="carrito__producto">
+                     <div class="img__carrito-seleccionado">
+                        <img src="/assets/img/pizza-01.png" alt="imagen" class="img__carrito">
+                     </div>                                    
+                     <div class="carrito__producto-titulo">                     
+                        <small>Pizza</small>
+                        <h3>Napolitana</h3>
+                     </div>                  
+                     <div class="carrito__producto-seleccionado">                     
+                        <p>$ 39466,50</p>
+                        <div class="cantidad__seleccionada">
+                           <i class="ri-delete-bin-5-fill"></i>
+                           <span>1</span> 
+                           <i class="ri-add-large-fill"></i>
+                        </div>                     
+                     </div>                     
+                     </div>                 
+                  </div>
+            </div>
+
+            <div class="contenedor__carrito">
+               <div class="carrito__productos">
+                  <div class="carrito__producto">
+                     <div class="img__carrito-seleccionado">
+                        <img src="/assets/img/pizza-01.png" alt="imagen" class="img__carrito">
+                     </div>                                    
+                     <div class="carrito__producto-titulo">                     
+                        <small>Hamburguesa</small>
+                        <h3>Completa con papas fritas</h3>
+                     </div>                  
+                     <div class="carrito__producto-seleccionado">                     
+                        <p>$ 39466,50</p>
+                        <div class="cantidad__seleccionada">
+                           <i class="ri-delete-bin-5-fill"></i>
+                           <span>1</span> 
+                           <i class="ri-add-large-fill"></i>
+                        </div>                     
+                     </div>                     
+                     </div>                 
+                  </div>
+            </div>
+
+            <div class="contenedor__carrito">
+               <div class="carrito__productos">
+                  <div class="carrito__producto">
+                     <div class="img__carrito-seleccionado">
+                        <img src="/assets/img/pizza-01.png" alt="imagen" class="img__carrito">
+                     </div>                                    
+                     <div class="carrito__producto-titulo">                     
+                        <small>Pizza</small>
+                        <h3>Napolitana</h3>
+                     </div>                  
+                     <div class="carrito__producto-seleccionado">                     
+                        <p>$ 39466,50</p>
+                        <div class="cantidad__seleccionada">
+                           <i class="ri-delete-bin-5-fill"></i>
+                           <span>1</span> 
+                           <i class="ri-add-large-fill"></i>
+                        </div>                     
+                     </div>                     
+                     </div>                 
+                  </div>
+            </div>
+
+            <div class="contenedor__carrito">
+               <div class="carrito__productos">
+                  <div class="carrito__producto">
+                     <div class="img__carrito-seleccionado">
+                        <img src="/assets/img/pizza-01.png" alt="imagen" class="img__carrito">
+                     </div>                                    
+                     <div class="carrito__producto-titulo">                     
+                        <small>Pizza</small>
+                        <h3>Napolitana</h3>
+                     </div>                  
+                     <div class="carrito__producto-seleccionado">                     
+                        <p>$ 39466,50</p>
+                        <div class="cantidad__seleccionada">
+                           <i class="ri-delete-bin-5-fill"></i>
+                           <span>1</span> 
+                           <i class="ri-add-large-fill"></i>
+                        </div>                     
+                     </div>                     
+                     </div>                 
+                  </div>
+            </div> -->
+
+            <div class="contenedor__carrito-fin">
+               <div class="carrito__productos-fin">                              
+               </div>
+            </div>
+         </div>
+
+         <div class="carrito__acciones" id="carrito-acciones">
+            <div class="total__general">
+               <p>Total</p>
+               <div class="precio-total">
+                  <p id="monto-total">$ 35.095,00</p>
+                  <p id="sin-envio">(No incluye el envío)</p>
+               </div>
+               
+            </div>
+            <div class="botones__acciones-carrito">              
+              <a href="./menu.html"></a>
+                  <button class="realizar__pedido" id="carrito-acciones-comprar">
+                     Realizar pedido
+                  </button>
+                  </a>
+                              
+               <a href="./menu.html">
+                  <button class="seguir__comprando">
+                     Seguir comprando
+                  </button>
+               </a>
+            </div>
+         </div>
+
+      </div>       
+         
+
+      
+      
+      
+
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src="assets/js/scrollreveal.min.js"></script>
+
+      <!--=============== SWIPER JS ===============-->
+      <script src="assets/js/swiper-bundle.min.js"></script>
+      
+      <!--=============== CARRITO JS ===============-->
+      
+      
+      <script src="assets/js/carrito.js"></script>
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.21.0/dist/sweetalert2.all.min.js"></script>
+
+   </body>
+</html>

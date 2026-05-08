@@ -1,0 +1,82 @@
+[
+    {
+        "id": "pizza-napolitana",
+        "titulo": "Napolitana",
+        "imagen": "./assets/img/pizza-01.png",
+        "categoria": {
+            "nombre": "Pizza",
+            "id": "pizza"
+        },
+        "precio": "7.500,25"
+    },
+    {
+        "id": "pizza-muzzarella",
+        "titulo": "Muzzarella",
+        "imagen": "./assets/img/pizza-02.png",
+        "categoria": {
+            "nombre": "Pizza",
+            "id": "pizza"
+        },
+        "precio": "5.750,00"
+    },
+    {
+        "id": "pizza-pepperoni",
+        "titulo": "Pepperoni",
+        "imagen": "./assets/img/pizza-03.png",
+        "categoria": {
+            "nombre": "Pizza",
+            "id": "pizza"
+        },
+        "precio": "9.354,15"
+    },
+    {
+        "id": "pizza-fugazzeta",
+        "titulo": "Fugazzeta",
+        "imagen": "./assets/img/pizza-04.png",
+        "categoria": {
+            "nombre": "Pizza",
+            "id": "pizza"
+        },
+        "precio": "7.500,25"
+    },
+    {
+        "id": "pizza-completa",
+        "titulo": "Completa",
+        "imagen": "./assets/img/pizza-05.png",
+        "categoria": {
+            "nombre": "Pizza",
+            "id": "pizza"
+        },
+        "precio": "11.356,00"
+    },
+    {
+        "id": "hambur-simple",
+        "titulo": "Simple",
+        "imagen": "./assets/img/hamburguesa-03.png",
+        "categoria": {
+            "nombre": "Hamburguesa",
+            "id": "hamburguesa"
+        },
+        "precio": "5.120,25"
+    },
+    {
+        "id": "hambur-especial",
+        "titulo": "Especial",
+        "imagen": "./assets/img/hamburguesa-02.png",
+        "categoria": {
+            "nombre": "Hamburguesa",
+            "id": "hamburguesa"
+        },
+        "precio": "7.500,00"
+    },
+    {
+        "id": "hambur-completa",
+        "titulo": "Completa",
+        "imagen": "./assets/img/hamburguesa-01.png",
+        "categoria": {
+            "nombre": "Hamburguesa",
+            "id": "hamburguesa"
+        },
+        "precio": "7.500,25"
+    }
+]

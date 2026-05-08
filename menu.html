@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+   <html lang="es">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== ICONS ===============-->
+      <link rel="shortcut icon" href="assets/img/logoDsMatt.png" type="imege/x-icon">
+
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css">
+
+
+      <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+
+      <!--=============== SWIPER CSS ===============-->
+      <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+      <!--=============== UNICONS ===============-->
+
+      <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+      
+
+      <title>DS Matt</title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header " id="header">
+         <nav class="nav__principal">
+            <a href="#inicio" class="nav__logo">Menú</a>
+            <img src="assets/img/logoDsMatt.png" alt="imagen" class="nav__logo-img"> 
+         </nav>  
+         
+         
+      </header>
+      <!--=============== NAVBAR ===============-->
+      <nav class="nav " id="nav__opciones">
+         <ul class="nav__lista" >
+            <li>
+               <a href="index.html" class="nav__link">
+                  <i class="ri-home-9-fill"></i>
+                  <span>Incio</span>
+               </a>
+            </li>
+
+            <li>
+               <a href="menu.html" class="nav__link active__link">
+                  <i class="ri-restaurant-fill"></i>
+                  <span>Menú</span>
+               </a>
+            </li>
+
+            <li>
+               
+               <a href="pedidos.html" class="nav__link">
+                  <i class="ri-shopping-cart-fill"></i>
+                  <span class="numero__pedidos" id="numero-pedidos">0</span>
+                  <span>Pedidos</span>
+               </a>              
+            </li>
+
+            <!-- <li>
+               <a href="index.html" class="nav__link">
+                  <i class="ri-contacts-fill"></i>
+                  <span>Contacto</span>
+               </a>
+            </li> -->
+         </ul>
+         
+      </nav>
+
+      <!--==================== MAIN BARRA MENU ====================-->
+      <main class="container"  >
+
+         <!--==================== BARRA MENU VIEJA ====================-->
+
+         <!-- <section class="section " id="listado-menues">            
+            <nav class="nav__container-menu" >               
+               <div class="nav__menu-opciones" id="nav-menu-opciones">
+                  <ul class="nav__list-opciones" id="barra-menu">
+                    <li>
+                     <a href="#pizzas" class="nav__link-opciones">Pizzas</a>
+                    </li>
+   
+                    <li>
+                     <a href="#hamburguesas" class="nav__link-opciones">Hamburguesas</a>
+                    </li>
+   
+                    <li>
+                     <a href="#about" class="nav__link-opciones">Sandwiches</a>
+                    </li>                    
+   
+                    <li>
+                     <a href="#products" class="nav__link-opciones">Alitos</a>
+                    </li>
+
+                    <li>
+                     <a href="#products" class="nav__link-opciones">Lomitos</a>
+                    </li>
+   
+                    <li>
+                     <a href="#contact" class="nav__link-opciones">Emapandas</a>
+                    </li>
+
+                    <li>
+                     <a href="#contact" class="nav__link-opciones">Papas</a>
+                    </li>
+                  </ul>                 
+               </div>   
+            </nav>            
+         </section> -->
+
+         <!--==================== BARRA MENU NUEVA ====================-->
+         <section class="main-container" >
+            <div class="tab-nav-bar" id="menu-nuevo">
+                <div class="tab-navigation" >
+                    <i class="uil uil-angle-left left-btn"></i>
+                    <i class="uil uil-angle-right right-btn"></i>
+                    <ul class="tab-menu" id="listadoDeMenues">
+                     
+                                       
+                    </ul>
+                </div>
+            </div>
+        </section> 
+      
+      
+      </main>       
+      <!--==================== PRODUCTOS ====================-->
+      
+      <div class="section" id="contenedor-productos">
+      <!-- Esto se carga con Js  -->
+      </div>
+      <!--=============== SCROLL UP ===============-->
+      <a href="#" class="scrollup" id="scroll-up"> 
+         <i class="ri-arrow-up-fill scrollup__icon"></i>
+      </a>
+
+
+      <!--==================== PRODUCTO SELECCIONADO ====================-->
+      <section class="producto__seleccionado oculto" id="producto-seleccionado">
+         <header class="header" id="header-menu">
+         <nav class="nav__principal">
+            <a href="#inicio" class="nav__logo">Pizza</a>
+            <i class="ri-arrow-go-back-fill boton__volver" id="volver-menu"></i>
+
+         </nav>         
+         </header>
+
+         <div class="cantidad__pedido">
+         <div class="producto__pedido">
+            <div class="img__producto">
+               <img src="/assets/img/pizza-01.png" alt="" class="img__producto-seleccionado">
+            </div>
+            <div class="detalle__pedido">
+               <h2>Napolitana</h2>
+               <span>Muzzarella, jamón cocido, tomates, ajo, peregil, oregano y aceitunas.</span>
+            </div>
+         </div>
+         <di class="opciones__pedido">
+            <div class="cantidad__pedida">
+               <i class="ri-delete-bin-5-fill"></i>
+               <span>1</span> 
+               <i class="ri-add-large-fill"></i>
+            </div>
+            <div class="agregar__pedido">
+               <span>Agregar</span>
+               <p>$ 57.814,00</p>
+            </div>
+
+         </di>
+         </div>
+      </section>
+
+      
+      
+      
+
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src="assets/js/scrollreveal.min.js"></script>
+
+      <!--=============== SWIPER JS ===============-->
+      <script src="assets/js/swiper-bundle.min.js"></script>
+      
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+   </body>
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>DSMATT | PuzzleSystem</title>
+
+      <meta name="description" content="DSMATT y PuzzleSystem te traen la mejor rotisería en Formosa. Comidas caseras, pedidos online, atención personalizada y soluciones digitales para tu día a día.">
+      <meta name="keywords" content="rotisería Formosa, DSMATT, PuzzleSystem, ecommerce gastronómico, comida casera, pedidos online, soluciones digitales, Formosa Capital">
+      <meta name="author" content="DSMATT - PuzzleSystem">
+
+      <link rel="canonical" href="https://puzzlesystem.online/dsmatt/">
+      <meta name="robots" content="index, follow">
+
+      <!-- Open Graph para compartir en redes -->
+      <meta property="og:title" content="Rotisería en Formosa | DSMATT | PuzzleSystem">
+      <meta property="og:description" content="Comidas caseras y soluciones digitales en Formosa. DSMATT y PuzzleSystem te conectan con lo mejor de la gastronomía local.">
+      <meta property="og:image" content="https://puzzlesystem.online/dsmatt/assets/img/logoDsMatt.png">
+      <meta property="og:url" content="https://puzzlesystem.online/dsmatt/">
+      <meta property="og:type" content="website">
+      <!--=============== ICONS ===============-->
+      <link rel="shortcut icon" href="assets/img/logoDsMatt.png" type="imege/x-icon">
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css">
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles2.css">
+      <link rel="stylesheet" href="assets/css/styles.css">      
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <nav class="nav__principal">
+            <a href="#inicio" class="nav__logo">Pedidos ON-LINE</a>
+            <!-- <img src="assets/img/logoDsMatt.png" alt="imagen" class="nav__logo-img">  -->
+         </nav>         
+      </header>
+
+      <!--=============== NAVBAR ===============-->
+      <nav class="nav" id="nav__opciones">
+         <ul class="nav__lista">
+            <li>
+               <a href="index.html" class="nav__link active__link">
+                  <i class="ri-home-9-fill"></i>
+                  <span>Incio</span>
+               </a>
+            </li>
+
+            <li>
+               <a href="menu.html" class="nav__link">
+                  <i class="ri-restaurant-fill"></i>
+                  <span>Menú</span>
+               </a>
+            </li>
+
+            <li>
+               <a href="pedidos.html" class="nav__link">
+                  <i class="ri-shopping-cart-fill"></i>
+                  <span class="numero__pedidos" id="numero-pedidos-inicio">0</span>
+                  <span>Pedidos</span>
+               </a>
+            </li>
+
+            <!-- <li>
+               <a href="index.html" class="nav__link">
+                  <i class="ri-contacts-fill"></i>
+                  <span>Contacto</span>
+               </a>
+            </li> -->
+         </ul>         
+      </nav>
+      
+
+      <!--==================== MAIN ====================-->
+      <main class="index-container">
+         <!-- Producto principal en video/gif -->
+         <section class="destacado">
+            <div class="destacado__video-container animate-on-scroll">
+               <video autoplay muted loop playsinline class="destacado__video">
+               <source src="assets/video/producto-principal.mp4" type="video/mp4">
+               Tu navegador no soporta video.
+               </video>
+               <div class="producto-principal">
+               <h2>Super DSMatt</h2>
+               <p>Nuestro producto estrella, apetitoso y único</p>
+               <a href="menu.html#especiales" class="card__boton">Conocér mas</a>
+               </div>
+            </div>
+         </section>
+
+         <!-- Cards recomendadas -->
+         <section class="recomendados">
+            <h2 class="recomendados__titulo">Los más elegidos</h2>
+            <div class="recomendados__grid">
+               <div class="card animate-on-scroll">
+                  <img src="assets/img/hamburpizza-entera.png" alt="HamburPizza Entera">
+                  <div class="card__body">
+                     <h3>HamburPizza Entera</h3>
+                     <p class="card__price">$25.000</p>
+                     <a href="menu.html#hamburpizza" class="card__boton">Ver más</a>
+                  </div>
+                  </div>
+
+                  <div class="card animate-on-scroll">
+                  <img src="assets/img/lomito-completo.png" alt="Sandwich de Lomito completo">
+                  <div class="card__body">
+                     <h3>Sandwich de Lomito completo</h3>
+                     <p class="card__price">$12.000</p>
+                     <a href="menu.html#sandwich-lomito" class="card__boton">Ver más</a>
+                  </div>
+                  </div>
+
+                  <div class="card animate-on-scroll">
+                  <img src="assets/img/lomopizza-mitad.png" alt="Lomopizza Mitad">
+                  <div class="card__body">
+                     <h3>Lomopizza Mitad</h3>
+                     <p class="card__price">$19.500</p>
+                     <a href="menu.html#lomopizza" class="card__boton">Ver más</a>
+                  </div>
+                  </div>
+
+                  <div class="card animate-on-scroll">
+                  <img src="assets/img/pizza-napolitana.png" alt="Pizza Napolitana">
+                  <div class="card__body">
+                     <h3>Pizza Napolitana</h3>
+                     <p class="card__price">$12.000</p>
+                     <a href="menu.html#pizza" class="card__boton">Ver más</a>
+                  </div>
+               </div>
+            </div>
+         </section>
+         </main>
+
+      <!-- Datos estructurados para SEO local -->
+      <!-- <script type="application/ld+json">
+      {
+         "@context": "https://schema.org",
+         "@type": "LocalBusiness",
+         "name": "DSMATT Rotisería PuzzleSystem",
+         "image": "https://tusitio.com/img/logo.png",
+         "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Formosa",
+            "addressRegion": "Formosa",
+            "addressCountry": "AR"
+         },
+         "url": "https://tusitio.com",
+         "telephone": "+54 370 XXXX XXXX",
+         "description": "Rotisería en Formosa con pedidos online, atención personalizada y soluciones digitales."
+      }
+      </script>     -->
+      
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src="assets/js/scrollreveal.min.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+
+      <script src="assets/js/inicio.js"></script>   
+      <script>       
+         
+
+
+            
+
+      </script>   
+   </body>
+</html>
