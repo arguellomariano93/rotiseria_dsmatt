@@ -9,14 +9,14 @@
       <meta name="keywords" content="rotisería Formosa, DSMATT, PuzzleSystem, ecommerce gastronómico, comida casera, pedidos online, soluciones digitales, Formosa Capital">
       <meta name="author" content="DSMATT - PuzzleSystem">
 
-      <link rel="canonical" href="https://puzzlesystem.online/dsmatt/">
+      <link rel="canonical" href="https://dsmatt.com.ar/">
       <meta name="robots" content="index, follow">
 
       <!-- Open Graph para compartir en redes -->
       <meta property="og:title" content="Rotisería en Formosa | DSMATT | PuzzleSystem">
       <meta property="og:description" content="Comidas caseras y soluciones digitales en Formosa. DSMATT y PuzzleSystem te conectan con lo mejor de la gastronomía local.">
-      <meta property="og:image" content="https://puzzlesystem.online/dsmatt/assets/img/logoDsMatt.png">
-      <meta property="og:url" content="https://puzzlesystem.online/dsmatt/">
+      <meta property="og:image" content="https://dsmatt.com.ar/assets/img/logoDsMatt.png">
+      <meta property="og:url" content="https://dsmatt.com.ar/">
       <meta property="og:type" content="website">
       <!--=============== ICONS ===============-->
       <link rel="shortcut icon" href="assets/img/logoDsMatt.png" type="imege/x-icon">
@@ -75,25 +75,77 @@
       <main class="index-container">
          <!-- Producto principal en video/gif -->
          <section class="destacado">
-            <div class="destacado__video-container animate-on-scroll">
-               <video autoplay muted loop playsinline class="destacado__video">
-               <source src="assets/video/producto-principal.mp4" type="video/mp4">
-               Tu navegador no soporta video.
-               </video>
-               <div class="producto-principal">
-               <h2>Super DSMatt</h2>
-               <p>Nuestro producto estrella, apetitoso y único</p>
-               <a href="menu.html#especiales" class="card__boton">Conocér mas</a>
+            <h2 class="recomendados__titulo">Destacados</h2>
+            <div class="carousel-container">
+               <div class="carousel-track">
+                  
+                  <!-- Slide 1 -->
+                  <div class="carousel-item">
+                  <video autoplay muted loop playsinline class="destacado__video">
+                     <source src="assets/video/producto-principal.mp4" type="video/mp4">
+                  </video>
+                  <div class="producto-principal">
+                     <h2>Super Matt</h2>
+                     <p>Nuestro producto estrella, apetitoso y único</p>
+                     <a href="menu.html#especiales" class="card__boton">Conocer más</a>
+                  </div>
+                  </div>
+
+                  <!-- Slide 2 -->
+                  <div class="carousel-item">
+                  <video autoplay muted loop playsinline class="destacado__video">
+                     <source src="assets/video/salchipapas.mp4" type="video/mp4">
+                  </video>
+                  <div class="producto-principal">
+                     <h2>Salchipapas</h2>
+                     <p>Irresistibles, con queso y papas doradas</p>
+                     <a href="menu.html#especiales" class="card__boton">Conocer más</a>
+                  </div>
+                  </div>
+
+                  <!-- Slide 3 -->
+                  <div class="carousel-item">
+                  <video autoplay muted loop playsinline class="destacado__video">
+                     <source src="assets/video/pastelon-de-papas.mp4" type="video/mp4">
+                  </video>
+                  <div class="producto-principal">
+                     <h2>Pastelón de Papas</h2>
+                     <p>Casero, abundante y lleno de sabor</p>
+                     <a href="menu.html#especiales" class="card__boton">Conocer más</a>
+                  </div>
+                  </div>
+
                </div>
+
+               <!-- Botones de navegación -->
+               <button class="carousel-btn prev">&#10094;</button>
+               <button class="carousel-btn next">&#10095;</button>
             </div>
          </section>
+
+         <section class="redes-sociales">
+            <div class="redes__container">
+               <a href="https://wa.me/5493704863687" target="_blank" class="redes__boton whatsapp">
+                  <i class="ri-whatsapp-fill"></i><span>WhatsApp</span>
+               </a>
+               <a href="https://instagram.com/d.s_matt" target="_blank" class="redes__boton instagram">
+                  <i class="ri-instagram-fill"></i><span>Instagram</span>
+               </a>               
+               <a href="https://tiktok.com/@matiasluisperez" target="_blank" class="redes__boton tiktok">
+                  <i class="ri-tiktok-fill"></i><span>TikTok</span>
+               </a>
+            </div>
+         </section>
+
+
+
 
          <!-- Cards recomendadas -->
          <section class="recomendados">
             <h2 class="recomendados__titulo">Los más elegidos</h2>
             <div class="recomendados__grid">
                <div class="card animate-on-scroll">
-                  <img src="assets/img/hamburpizza-entera.png" alt="HamburPizza Entera">
+                  <img src="assets/img/hamburpizza.png" alt="HamburPizza Entera">
                   <div class="card__body">
                      <h3>HamburPizza Entera</h3>
                      <p class="card__price">$25.000</p>
@@ -111,11 +163,11 @@
                   </div>
 
                   <div class="card animate-on-scroll">
-                  <img src="assets/img/lomopizza-mitad.png" alt="Lomopizza Mitad">
+                  <img src="assets/img/alito-completo.png" alt="Alito completo">
                   <div class="card__body">
-                     <h3>Lomopizza Mitad</h3>
-                     <p class="card__price">$19.500</p>
-                     <a href="menu.html#lomopizza" class="card__boton">Ver más</a>
+                     <h3>Alito Completo con Fritas</h3>
+                     <p class="card__price">$15.500</p>
+                     <a href="menu.html#alito-al-plato" class="card__boton">Ver más</a>
                   </div>
                   </div>
 
@@ -125,6 +177,25 @@
                      <h3>Pizza Napolitana</h3>
                      <p class="card__price">$12.000</p>
                      <a href="menu.html#pizza" class="card__boton">Ver más</a>
+                  </div>
+                  </div>
+
+                  <div class="card animate-on-scroll">
+                  <img src="assets/img/pizza-completa.png" alt="Pizza Completa">
+                  <div class="card__body">
+                     <h3>Pizza Completa</h3>
+                     <p class="card__price">$9.500</p>
+                     <a href="menu.html#pizza" class="card__boton">Ver más</a>
+                  </div>
+                  </div>
+
+                  <div class="card animate-on-scroll">
+                  <img src="assets/img/sandwich-de-milanesa.png" alt="Sandwich de Milanesa Completo + Fritas">
+                  <div class="card__body">
+                     <h3>Sandwich de Milanesa Completo + Fritas</h3>
+                     <p class="card__price">$10.000</p>
+                     <a href="menu.html#sandwich-milanesa" class="card__boton">Ver más</a>
+                  </div>
                   </div>
                </div>
             </div>
@@ -166,3 +237,62 @@
       </script>   
    </body>
 </html>
+
+<script>
+   const track = document.querySelector(".carousel-track");
+   const slides = Array.from(track.children);
+   const prevButton = document.querySelector(".carousel-btn.prev");
+   const nextButton = document.querySelector(".carousel-btn.next");
+   let currentIndex = 0;
+   let autoPlayInterval;
+
+   function updateCarousel() {
+   track.style.transform = `translateX(-${currentIndex * 100}%)`;
+   }
+
+   function nextSlide() {
+   currentIndex = (currentIndex + 1) % slides.length;
+   updateCarousel();
+   }
+
+   function prevSlide() {
+   currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+   updateCarousel();
+   }
+
+   nextButton.addEventListener("click", () => {
+   nextSlide();
+   resetAutoplay();
+   });
+
+   prevButton.addEventListener("click", () => {
+   prevSlide();
+   resetAutoplay();
+   });
+
+   // Autoplay cada 5 segundos
+   function startAutoplay() {
+   autoPlayInterval = setInterval(nextSlide, 5000);
+   }
+
+   function resetAutoplay() {
+   clearInterval(autoPlayInterval);
+   startAutoplay();
+   }
+
+   startAutoplay();
+
+   // Swipe en mobile
+   let startX = 0;
+   track.addEventListener("touchstart", e => startX = e.touches[0].clientX);
+   track.addEventListener("touchend", e => {
+   let endX = e.changedTouches[0].clientX;
+   if (startX - endX > 50) {
+      nextSlide();
+   } else if (endX - startX > 50) {
+      prevSlide();
+   }
+   resetAutoplay();
+   });
+
+</script>

@@ -202,7 +202,7 @@ button {
 
 /* Show Scroll Up*/
 .show-scroll{
-  bottom: 5rem;
+  bottom: 8.5rem;
 }
 
 
@@ -1059,4 +1059,25 @@ button {
   .nav{
     width: 800px;
   }
+}
+
+.whatsapp-float {
+  position: fixed;
+  top: 86%;
+  right: 12px;
+  transform: translateY(-50%); /* centra verticalmente */
+  background: #25D366;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  z-index: 1000;
+  transition: transform .3s ease;
+}
+
+.whatsapp-float:hover {
+  transform: translateY(-50%) scale(1.1);
+  background: #20b858;
 }
