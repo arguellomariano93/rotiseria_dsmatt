@@ -1063,7 +1063,7 @@ button {
 
 .whatsapp-float {
   position: fixed;
-  top: 86%;
+  bottom: 3.5rem;
   right: 12px;
   transform: translateY(-50%); /* centra verticalmente */
   background: #25D366;
@@ -1073,7 +1073,10 @@ button {
   border-radius: 50%;
   text-align: center;
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-  z-index: 1000;
+  z-index: 9999;             /* aseguramos que quede arriba de todo */
+  -webkit-transform: translateY(-50%); /* compatibilidad iOS */
+  -webkit-backface-visibility: hidden; /* evita el “rebote” en scroll */
+  -webkit-perspective: 1000;           /* mejora estabilidad en Safari */
   transition: transform .3s ease;
 }
 

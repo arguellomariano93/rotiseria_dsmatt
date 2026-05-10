@@ -96,6 +96,9 @@
   overflow: hidden;
   box-shadow: var(--box-shadow-black);
   transition: transform .3s ease, box-shadow .3s ease;
+  /* Flex en columna para controlar la posición interna */
+  display: flex;
+  flex-direction: column;
 }
 
 .card:hover {
@@ -112,17 +115,21 @@
 .card__body {
   padding: 1rem;
   text-align: center;
+  /* Hace que el contenido ocupe espacio arriba */
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .card__price {
   font-weight: bold;
   color: var(--first-color);
-  margin-top: .5rem;
+  margin: .5rem;
 }
 
 .card__boton {
   display: inline-block;
-  margin-top: 1rem;
+  margin-top: auto; /* empuja el botón hacia abajo */
   padding: .5rem 1rem;
   background: var(--first-color);
   color: var(--white-color);
